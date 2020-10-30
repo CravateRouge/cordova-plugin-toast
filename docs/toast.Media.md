@@ -470,7 +470,7 @@ Attache the given plugin instance to the Media instance. This will be affect to 
 			
 			// OPTION 2: Instead of attaching the container to body,
 			//           you can append the 'elContainer' to any other DOM element to show the video in partial screen like below:
-			var elPlayer = document.querySelecter(".videoplayer")
+			var elPlayer = document.querySelector(".videoplayer")
 			elContainer.className = 'renderarea';	// .renderarea style could be pre-defined with CSS.
 			elPlayer.appendChild(elContainer);
 
